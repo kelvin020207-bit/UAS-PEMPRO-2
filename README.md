@@ -6,7 +6,7 @@ Aplikasi berbasis *Command Line Interface* (CLI) ini dirancang untuk mendigitali
 
 ## 👥 Anggota Kelompok (Developer)
 Proyek ini dikerjakan secara berkelompok oleh 5 orang:
-1. **Kelvin**
+1. **Kelvin** 
 2. **Kelvin Franseco**
 3. **Bagas**
 4. **Sello**
@@ -46,13 +46,3 @@ Aplikasi ini mendukung sistem multi-user dengan hak akses terpisah menggunakan f
 3. **Data Validation**: Validasi input bawaan (`cin.fail()`) untuk mencegah *infinite loop* atau *crash* jika pengguna salah memasukkan tipe data (misal: menginput huruf pada menu angka).
 
 ---
-
-## 📂 Struktur File Data
-
-Agar program berjalan lancar saat melakukan penyimpanan, pastikan folder program memiliki struktur seperti berikut:
-```text
-📂 Projek-Ayam-Geprek/
- ├── 📄 main.cpp         # Source code program utama
- └── 📂 data/
-      ├── 📄 menu.txt    # File database menu (Format: nama|harga)
-      └── 📄 pesanan.txt # File database pesanan (Format: pelanggan|menu|jumlah|total)
